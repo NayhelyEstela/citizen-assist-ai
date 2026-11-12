@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "categoria": "Documentos e identidade",
+    "titulo": "Consultar a situação e emitir o comprovante do CPF",
+    "palavras_chave": [
+      "cpf",
+      "comprovante de cpf",
+      "situacao do cpf",
+      "consultar cpf",
+      "emitir cpf"
+    ],
+    "resposta": "Você pode consultar a situação do seu CPF e emitir o comprovante de graça no site da Receita Federal. O CPF precisa estar \"regular\" para você ser contratado.",
+    "documentos": [
+      "CPF (número)",
+      "Data de nascimento",
+      "Conta gov.br ou dados para validação, conforme o serviço"
+    ],
+    "onde": "Site da Receita Federal (Meu CPF), app Meu CPF ou conta gov.br",
+    "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf",
+    "verificado_em": "2026-11-11"
+  },
+    {
+    "id": 2,
+    "categoria": "Documentos e identidade",
+    "titulo": "Tirar o primeiro título de eleitor",
+    "palavras_chave": ["titulo de eleitor", "primeiro titulo", "tirar titulo", "titulo eleitoral", "alistamento eleitoral", "titulo net"],
+    "resposta": "Você pode pedir o primeiro título a partir dos 15 anos. O pedido é feito só pela própria pessoa, sem procurador. Você pode ir ao cartório eleitoral (com agendamento pelo site do TRE) ou começar pelo formulário online Título Net. No Título Net, você ainda precisa agendar um atendimento presencial para terminar o pedido. O voto é obrigatório a partir dos 18 anos e facultativo entre 16 e 18.",
+    "documentos": [
+      "Documento oficial com foto ou certidão de nascimento (Carteira de Trabalho digital não vale)",
+      "Comprovante de residência",
+      "Quitação militar (homens, no ano em que fazem 19 anos)"
+    ],
+    "onde": "Cartório eleitoral (atendimento com agendamento no site do TRE) ou pré-atendimento online pelo Título Net. Dúvidas: telefone 148",
+    "fonte": "https://www.tre-sp.jus.br/servicos-eleitorais/carta-de-servicos/primeiro-titulo-de-eleitor",
+    "verificado_em": "2026-11-11"
+  },
+   {
+    "id": 3,
+    "categoria": "Documentos e identidade",
+    "titulo": "Criar a conta gov.br",
+    "palavras_chave": [
+      "conta gov br",
+      "gov br",
+      "criar gov br",
+      "login gov br",
+      "senha gov br"
+    ],
+    "resposta": "A conta gov.br é grátis e dá acesso a vários serviços do governo, como a Carteira de Trabalho Digital. Você cria pelo site ou pelo app gov.br usando seu CPF. Existem níveis de conta (bronze, prata e ouro), e alguns serviços pedem nível maior.",
+    "documentos": [
+      "CPF",
+      "Celular ou e-mail para receber códigos"
+    ],
+    "onde": "Site ou aplicativo gov.br",
+    "fonte": "https://www.gov.br/pt-br/servicos/criar-sua-conta-gov.br",
+    "verificado_em": "2026-11-11"
+  },
+  {
+    "id": 4,
+    "categoria": "Documentos e identidade",
+    "titulo": "Como acessar a Carteira de Trabalho Digital",
+    "palavras_chave": [
+      "carteira de trabalho",
+      "carteira de trabalho digital",
+      "ctps",
+      "ctps digital",
+      "carteira digital"
+    ],
+    "resposta": "A Carteira de Trabalho agora é digital. Baixe o app Carteira de Trabalho Digital e entre com sua conta gov.br. Seu CPF é o número da carteira. Seus contratos de trabalho aparecem ali.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br"
+    ],
+    "onde": "Aplicativo Carteira de Trabalho Digital ou portal do Ministério do Trabalho e Emprego",
+    "fonte": "https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital",
+    "verificado_em": "2026-11-11"
+  },
+    {
+    "id": 5,
+    "categoria": "Trabalho e vagas",
+    "titulo": "Como se inscrever como Jovem Aprendiz",
+    "palavras_chave": ["jovem aprendiz", "aprendiz", "menor aprendiz", "programa de aprendizagem", "contrato de aprendizagem", "aprendizagem profissional"],
+    "resposta": "Para se inscrever, você precisa ter de 14 anos completos até 24 anos incompletos. Quem ainda não terminou a educação básica deve estar matriculado e frequentando a escola. Procure uma entidade formadora habilitada na sua cidade (como Senai, Senac, Senar, Senat, Sescoop, escolas técnicas ou ONGs) ou uma empresa que contrata aprendizes. A lista de entidades pode ser consultada por município. A vaga está ligada a um curso de aprendizagem feito nessa entidade. O contrato dura até 2 anos, tem carteira assinada e garante salário mínimo por hora trabalhada, FGTS, 13º salário, férias e vale-transporte.",
+    "documentos": [
+      "Comprovante de matrícula e frequência escolar (para quem não terminou a educação básica)",
+      "Carteira de Trabalho (o contrato é registrado nela)",
+      "Outros documentos podem ser pedidos pela entidade formadora ou pela empresa"
+    ],
+    "onde": "Entidades formadoras habilitadas da sua cidade ou empresas que contratam aprendizes",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/julho/aprendizagem-profissional-regras-direitos-e-funcionamento-do-contrato-de-aprendizagem",
+    "verificado_em": "2026-11-11"
+  },
+    {
+    "id": 6,
+    "categoria": "Trabalho e vagas",
+    "titulo": "Consultar o saldo do FGTS",
+    "palavras_chave": ["fgts", "saldo do fgts", "consultar fgts", "fundo de garantia", "extrato do fgts", "app fgts"],
+    "resposta": "O FGTS é um valor que a empresa deposita todo mês em seu nome, e o saldo só aparece depois que você tem um emprego com carteira assinada. Para consultar, baixe o aplicativo FGTS (Android ou iOS) e entre com seu CPF e senha, ou com a conta gov.br (nível prata ou ouro). No primeiro acesso, crie o cadastro e a senha no próprio app. Na tela inicial você vê o saldo total e, no extrato, os depósitos mês a mês. Se preferir, também dá para consultar no site da Caixa ou em uma agência da Caixa.",
+    "documentos": [
+      "CPF",
+      "Senha do app FGTS ou conta gov.br (nível prata ou ouro)",
+      "Documento de identificação (só para consulta na agência)"
+    ],
+    "onde": "Aplicativo FGTS (Android e iOS), site da Caixa ou agência da Caixa",
+    "fonte": "https://www.fgts.gov.br",
+    "verificado_em": "2026-11-11"
+  },
+  {
+    "id": 7,
+    "categoria": "Trabalho e vagas",
+    "titulo": "Como funciona o contrato de experiência",
+    "palavras_chave": [
+      "contrato de experiencia",
+      "periodo de experiencia",
+      "experiencia 90 dias",
+      "contrato de 90 dias",
+      "contrato temporario"
+    ],
+    "resposta": "O contrato de experiência é um período de teste no começo do emprego com carteira assinada. Ele pode durar no máximo 90 dias, e pode ser renovado uma vez dentro desse limite. Nesse período você já tem carteira assinada e direitos trabalhistas.",
+    "documentos": ["Carteira de Trabalho Digital", "Documentos pessoais pedidos pela empresa"],
+    "onde": "No RH da empresa que contratou você",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+    "verificado_em": "2026-11-11"
+  },
+    {
+    "id": 8,
+    "categoria": "Trabalho e vagas",
+    "titulo": "Cursos gratuitos para melhorar o currículo (QualificaPro)",
+    "palavras_chave": ["qualificapro", "cursos gratuitos", "curso gratuito", "qualificacao profissional", "melhorar o curriculo", "fazer curso"],
+    "resposta": "O QualificaPro é uma plataforma do Ministério do Trabalho e Emprego com mais de 30 mil cursos gratuitos. Ele fica dentro do app Carteira de Trabalho Digital. Abra o app, entre com sua conta gov.br e toque no banner do QualificaPro. Ao buscar um curso, você também vê como está o mercado de trabalho naquela área, com dados de emprego e salário. Serve para quem quer se qualificar antes de procurar o primeiro emprego.",
+    "documentos": [
+      "Conta gov.br",
+      "CPF (usado para criar a conta gov.br)",
+      "Celular com o app Carteira de Trabalho Digital instalado"
+    ],
+    "onde": "Aplicativo Carteira de Trabalho Digital (banner do QualificaPro)",
+    "fonte": "https://ufrb.edu.br/cfp/atividades-para-a-comunidade/4209-qualificapro-plataforma-de-cursos-gratuitos-que-conecta-trabalhadores-ao-mercado-de-trabalho",
+    "verificado_em": "2026-11-11"
+  },
+  {
+    "id": 9,
+    "categoria": "Dinheiro e formalização",
+    "titulo": "Como pedir o seguro-desemprego",
+    "palavras_chave": ["seguro desemprego", "seguro-desemprego", "pedir seguro desemprego", "fui demitido", "demissao", "demitido sem justa causa"],
+    "resposta": "O seguro-desemprego é um auxílio em dinheiro para quem foi demitido sem justa causa de um emprego com carteira assinada. O pedido é feito pelo app Carteira de Trabalho Digital (menu Benefícios) ou pelo portal gov.br, com login da conta gov.br. Você informa o CPF e o número do requerimento de seguro-desemprego, fornecido pela empresa. O pedido deve ser feito entre 7 e 120 dias depois da demissão. Na primeira vez, é preciso ter trabalhado pelo menos 12 meses, então quem acabou de começar pode ainda não ter direito.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br",
+      "Número do requerimento de seguro-desemprego (fornecido pela empresa)"
+    ],
+    "onde": "App Carteira de Trabalho Digital ou portal gov.br. Também há atendimento presencial no Sine ou na Superintendência Regional do Trabalho",
+    "fonte": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego",
+    "verificado_em": "2026-11-11"
+  },
+   {
+    "id": 10,
+    "categoria": "Dinheiro e formalização",
+    "titulo": "Como funciona a conta-salário",
+    "palavras_chave": [
+      "conta salario",
+      "conta de salario",
+      "conta para receber salario",
+      "receber salario",
+      "banco do salario"
+    ],
+    "resposta": "A conta-salário é uma conta aberta pela empresa só para você receber o salário. Ela tem regras próprias e vários serviços básicos sem custo. Você pode pedir para transferir o salário para outro banco. Confirme as regras com o banco.",
+    "documentos": [
+      "Documento de identidade (RG)",
+      "CPF",
+      "Comprovante de residência",
+      "Dados que a empresa enviar ao banco"
+    ],
+    "onde": "Banco indicado pela empresa e RH",
+    "fonte": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução%20BCB&numero=284",
+    "verificado_em": "2026-11-11"
+  },
+  {
+    "id": 11,
+    "categoria": "Dinheiro e formalização",
+    "titulo": "Mudar o salário para outro banco (portabilidade)",
+    "palavras_chave": [
+      "portabilidade",
+      "portabilidade de salario",
+      "mudar de banco",
+      "trocar de banco",
+      "trocar banco do salario"
+    ],
+    "resposta": "A portabilidade do salário permite receber em outro banco sem pagar nada por isso. Você pode pedir pelo app ou na agência, no banco onde quer passar a receber ou no banco onde o salário cai hoje. O banco onde o salário cai hoje processa o pedido. Se ele recusar, deve explicar o motivo.",
+    "documentos": [
+      "Documento com foto",
+      "CPF",
+      "Dados da empresa (como o CNPJ)"
+    ],
+    "onde": "Banco de destino (onde você quer receber), no app ou na agência",
+    "fonte": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução%20BCB&numero=284",
+    "verificado_em": "2026-11-11"
+  },
+  {
+    "id": 12,
+    "categoria": "Dinheiro e formalização",
+    "titulo": "Como abrir MEI para fazer bicos",
+    "palavras_chave": [
+      "mei",
+      "microempreendedor individual",
+      "abrir mei",
+      "fazer bicos",
+      "cnpj"
+    ],
+    "resposta": "O MEI é um CNPJ simples para quem trabalha por conta própria, como nos bicos. A inscrição é gratuita e feita no Portal do Empreendedor, com a conta gov.br. Depois você paga todo mês uma taxa fixa (DAS) e declara o faturamento uma vez por ano. Nem toda atividade pode ser MEI. Veja a lista de ocupações no portal.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br",
+      "Dados pessoais e endereço da atividade"
+    ],
+    "onde": "Portal do Empreendedor (gov.br/mei)",
+    "fonte": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
+    "verificado_em": "2026-11-11"
+  }
+]
