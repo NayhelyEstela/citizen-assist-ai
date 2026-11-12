@@ -1,11 +1,27 @@
 import csv
 import json
 import os
+import re
 import time
 from datetime import datetime
+from base_conhecimento import normalizar
 
 LIMITE_ALTA = 6    # 6 pontos ou mais  -> confiança ALTA
 LIMITE_MEDIA = 3   # de 3 a 5 pontos   -> confiança MÉDIA
+
+PADROES_DADO_PESSOAL = [
+    r"\b(cpf|rg|telefone|celular|whatsapp|zap|cep|conta)\b\D{0,15}\d{3,}",
+    r"\barroba\b",
+    r"\bponto com\b",
+    r"\bmeu nome (e|eh|completo)\b",
+    r"\bminha\b", r"\bmeu\b",r"\bdela\b", r"\bdele\b"
+    r"\bme chamo\b",
+    r"\bmeu sobrenome (e|eh)\b",
+    r"\bmeu endereco\b",
+    r"\bminha rua\b",
+    r"\bmoro (na|no) (rua|avenida|av|bairro|travessa)\b",
+    r"(\b(zero|um|dois|tres|quatro|cinco|seis|sete|oito|nove)\b\s*){5,}",
+]
 
 CAMPOS_CSV = ["data", "sessao", "origem", "pergunta", "id_orientacao",
               "encontrou", "ajudou", "tentativas", "tempo_segundos",
@@ -41,9 +57,17 @@ class Assistente:
         return None
 
     def tem_dado_pessoal(self, texto):
-        """True se o texto tem 8 ou mais dígitos ou um '@'."""
+        """True se o texto parece conter dado pessoal."""
+
         digitos = sum(1 for letra in texto if letra.isdigit())
-        return digitos >= 8 or "@" in texto
+        if digitos >= 8 or "@" in texto:
+            return True
+
+        texto_norm = normalizar(texto)
+        for padrao in PADROES_DADO_PESSOAL:
+            if re.search(padrao, texto_norm):
+                return True
+        return False
 
     def ler_opcao(self, texto, maximo, minimo=0):
         """Pede um número de 'minimo' a 'maximo' e repete até ser válido."""
@@ -133,7 +157,10 @@ class Assistente:
                 continue
             if self.tem_dado_pessoal(texto):
                 # Recusa e NÃO registra (nem entra na contagem de tentativas)
-                print("Atenção: não digite CPF, telefone ou e-mail. Reescreva.")
+                print("Atenção: parece que sua mensagem tem dado pessoal "
+                      "(CPF, telefone, e-mail, nome ou endereço).")
+                print("Por segurança, ela não foi registrada. "
+                      "Reescreva a dúvida sem esses dados.")
                 continue
 
             tentativas += 1
@@ -305,6 +332,7 @@ class Assistente:
         if desta_sessao:
             nota = self.ler_opcao(
                 "\nDe 1 a 5, quão fácil foi usar o assistente? ", 5, minimo=1)
+            print("=" * 60)
             for atendimento in desta_sessao:
                 atendimento["nota_facilidade"] = nota
 
@@ -312,4 +340,6 @@ class Assistente:
         if self.exportar_csv():
             print(f"Atendimentos exportados para {self.caminho_csv}")
         self.exibir_indicadores()
-        print("\nObrigado por usar o assistente!")
+        print()
+        print("=" * 60)
+        print("Obrigado por usar o assistente!")

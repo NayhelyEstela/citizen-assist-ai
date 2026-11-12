@@ -56,6 +56,7 @@ def main():
         assistente.encerrar()
     except (KeyboardInterrupt, EOFError):
         # Ctrl+C ou fim da entrada: salva o que já foi feito e sai sem erro
+        print("=" * 60)
         print("\n\nEncerrando o assistente. Seus atendimentos foram salvos.")
         assistente.salvar_historico()
         assistente.exportar_csv()
