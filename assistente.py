@@ -14,7 +14,6 @@ PADROES_DADO_PESSOAL = [
     r"\barroba\b",
     r"\bponto com\b",
     r"\bmeu nome (e|eh|completo)\b",
-    r"\bminha\b", r"\bmeu\b",r"\bdela\b", r"\bdele\b"
     r"\bme chamo\b",
     r"\bmeu sobrenome (e|eh)\b",
     r"\bmeu endereco\b",
