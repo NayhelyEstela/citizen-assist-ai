@@ -1,0 +1,16 @@
+﻿data,sessao,origem,pergunta,id_orientacao,encontrou,ajudou,tentativas,tempo_segundos,confianca,nota_facilidade
+2026-11-13 09:06:55,2026-11-13 09:06:03,pergunta,Posso trabalhar com 15 anos?,5,True,True,1,43.8,MÉDIA,4
+2026-11-13 09:08:36,2026-11-13 09:07:05,pergunta,Com 16 anos eu posso trabalhar?,5,True,True,1,38.9,MÉDIA,4
+2026-11-13 09:10:57,2026-11-13 09:09:06,pergunta,Meu pai precisa assinar alguma autorização?,,False,False,1,19.5,,4
+2026-11-13 10:28:38,2026-11-13 10:27:41,pergunta,Quero receber meu salário em outro banco,11,True,True,1,47.2,ALTA,5
+2026-11-13 10:30:32,2026-11-13 10:21:43,pergunta,Minha empresa quer abrir conta salário pra mim,10,True,True,1,52.6,MÉDIA,5
+2026-11-13 10:33:57,2026-11-13 10:31:45,pergunta,"Acabei de ser contratado, o que eu preciso levar no RH?",,False,False,1,22.4,,5
+2026-11-13 11:22:17,2026-11-13 11:21:26,pergunta,Como entrar no qualifica pro?,8,True,True,1,43.1,MÉDIA,4
+2026-11-13 11:24:59,2026-11-13 11:23:28,pergunta,Onde faço curso de graça?,8,True,True,1,40.8,MÉDIA,4
+2026-11-13 11:27:19,2026-11-13 11:25:30,pergunta,Quanto pago de DAS por mês?,,False,False,1,17.3,,4
+2026-11-13 12:49:20,2026-11-13 12:48:15,pergunta,"Perdi o emprego, como peço o seguro?",9,True,True,1,53.9,MÉDIA,3
+2026-11-13 12:52:08,2026-11-13 12:50:17,pergunta,"Fui mandado embora semana passada, e agora?",9,True,True,1,45.4,MÉDIA,3
+2026-11-13 12:55:49,2026-11-13 12:53:20,pergunta,Como sacar o FGTS depois de ser demitido?,6,True,False,1,37.7,MÉDIA,3
+2026-11-13 13:13:53,2026-11-13 13:12:50,pergunta,Onde faço curso de graça pra melhorar meu currículo?,8,True,True,1,49.6,MÉDIA,3
+2026-11-13 13:16:14,2026-11-13 13:14:52,pergunta,"Quero meu primeiro emprego, por onde começo?",,False,False,1,18.6,,3
+2026-11-13 13:17:34,2026-11-13 13:15:53,pergunta,Preciso de certificado de reservista?,,False,False,2,38.2,,3

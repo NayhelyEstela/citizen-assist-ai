@@ -79,7 +79,7 @@
     "id": 5,
     "categoria": "Trabalho e vagas",
     "titulo": "Como se inscrever como Jovem Aprendiz",
-    "palavras_chave": ["jovem aprendiz", "aprendiz", "menor aprendiz", "programa de aprendizagem", "contrato de aprendizagem", "aprendizagem profissional"],
+    "palavras_chave": ["jovem aprendiz", "aprendiz", "menor aprendiz", "programa de aprendizagem", "contrato de aprendizagem", "aprendizagem profissional", "com 15 anos", "com 16 anos"],
     "resposta": "Para se inscrever, você precisa ter de 14 anos completos até 24 anos incompletos. Quem ainda\nnão terminou a educação básica deve estar matriculado e frequentando a escola. Procure uma\nentidade formadora habilitada na sua cidade (como Senai, Senac, Senar, Senat, Sescoop,\nescolas técnicas ou ONGs) ou uma empresa que contrata aprendizes. A lista de entidades\npode ser consultada por município. A vaga está ligada a um curso de aprendizagem feito nessa\nentidade. O contrato dura até 2 anos, tem carteira assinada e garante salário mínimo por hora\ntrabalhada, FGTS, 13º salário, férias e vale-transporte.",
     "documentos": [
       "Comprovante de matrícula e frequência escolar (para quem não terminou a educação básica)",
@@ -94,7 +94,9 @@
     "id": 6,
     "categoria": "Trabalho e vagas",
     "titulo": "Consultar o saldo do FGTS",
-    "palavras_chave": ["fgts", "saldo do fgts", "consultar fgts", "fundo de garantia", "extrato do fgts", "app fgts"],
+    "palavras_chave": ["saldo do fgts", "saldo fgts", "consultar fgts", "consultar saldo", "ver fgts", "ver o fgts", "ver meu fgts", "vejo meu fgts",
+                       "quanto tenho de fgts", "quanto tenho no fgts", "saldo do fundo de garantia",
+                       "extrato do fgts", "extrato fgts", "app fgts", "aplicativo fgts"],
     "resposta": "O FGTS é um valor que a empresa deposita todo mês em seu nome, e o saldo só aparece depois\nque você tem um emprego com carteira assinada. Para consultar, baixe o aplicativo FGTS (Android\nou iOS) e entre com seu CPF e senha, ou com a conta gov.br (nível prata ou ouro). No primeiro\nacesso, crie o cadastro e a senha no próprio app. Na tela inicial você vê o saldo total e, no\nextrato, os depósitos mês a mês. Se preferir, também dá para consultar no site da Caixa ou\nem uma agência da Caixa.",
     "documentos": [
       "CPF",
@@ -126,7 +128,7 @@
     "id": 8,
     "categoria": "Trabalho e vagas",
     "titulo": "Cursos gratuitos para melhorar o currículo (QualificaPro)",
-    "palavras_chave": ["qualificapro", "cursos gratuitos", "curso gratuito", "qualificacao profissional", "melhorar o curriculo", "fazer curso"],
+    "palavras_chave": ["qualificapro", "cursos gratuitos", "curso gratuito", "qualificacao profissional", "melhorar o curriculo", "fazer curso", "qualifica pro", "curso de graca"],
     "resposta": "O QualificaPro é uma plataforma do Ministério do Trabalho e Emprego com mais de 30 mil cursos\ngratuitos. Ele fica dentro do app Carteira de Trabalho Digital. Abra o app, entre com sua\nconta gov.br e toque no banner do QualificaPro. Ao buscar um curso, você também vê como está\no mercado de trabalho naquela área, com dados de emprego e salário. Serve para quem quer se\nqualificar antes de procurar o primeiro emprego.",
     "documentos": [
       "Conta gov.br",
@@ -141,7 +143,7 @@
     "id": 9,
     "categoria": "Dinheiro e formalização",
     "titulo": "Como pedir o seguro-desemprego",
-    "palavras_chave": ["seguro desemprego", "seguro-desemprego", "pedir seguro desemprego", "fui demitido", "demissao", "demitido sem justa causa"],
+    "palavras_chave": ["seguro desemprego", "seguro-desemprego", "pedir seguro desemprego", "fui demitido", "demissao", "demitido sem justa causa", "mandado embora", "perdi o emprego"],
     "resposta": "O seguro-desemprego é um auxílio em dinheiro para quem foi demitido sem justa causa de um\nemprego com carteira assinada. O pedido é feito pelo app Carteira de Trabalho Digital (menu\nBenefícios) ou pelo portal gov.br, com login da conta gov.br. Você informa o CPF e o número\ndo requerimento de seguro-desemprego, fornecido pela empresa. O pedido deve ser feito entre 7\ne 120 dias depois da demissão. Na primeira vez, é preciso ter trabalhado pelo menos 12 meses\n, então quem acabou de começar pode ainda não ter direito.",
     "documentos": [
       "CPF",
@@ -183,7 +185,8 @@
       "portabilidade de salario",
       "mudar de banco",
       "trocar de banco",
-      "trocar banco do salario"
+      "trocar banco do salario",
+      "salario em outro banco"
     ],
     "resposta": "A portabilidade do salário permite receber em outro banco sem pagar nada por isso. Você pode\npedir pelo app ou na agência, no banco onde quer passar a receber ou no banco onde o salário\ncai hoje. O banco onde o salário cai hoje processa o pedido. Se ele recusar, deve explicar o motivo.",
     "documentos": [
@@ -215,5 +218,93 @@
     "onde": "Portal do Empreendedor (gov.br/mei)",
     "fonte": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
     "verificado_em": "2026-11-11"
+  },
+  {
+    "id": 13,
+    "categoria": "Trabalho e vagas",
+    "titulo": "Sacar o FGTS depois de ser demitido sem justa causa",
+    "palavras_chave": [
+      "sacar fgts",
+      "sacar o fgts",
+      "sacar meu fgts",
+      "sacar o saldo do fgts",
+      "sacar o saldo",
+      "sacar saldo",
+      "saco o fgts",
+      "saco meu fgts",
+      "pego o fgts",
+      "saque do fgts",
+      "saque fgts",
+      "sacar fundo de garantia",
+      "liberar fgts",
+      "retirar fgts",
+      "retirar o fgts",
+      "pegar o fgts",
+      "tirar o fgts",
+      "saque dispensa sem justa causa",
+      "saque rescisao",
+      "multa do fgts"
+    ],
+    "resposta": "Quem foi demitido sem justa causa pode sacar o saldo do FGTS, desde que a empresa tenha\ninformado a dispensa. O pedido pode ser feito 100% pelo app FGTS (\"Solicite seu saque 100%\ndigital\"): você indica uma conta bancária no seu nome, de qualquer banco, e o valor é\ncreditado em até 5 dias úteis. Se a liberação não for automática, é preciso ir a uma agência\nda Caixa com os documentos. Atenção: quem escolheu o Saque-Aniversário só pode sacar a multa\nrescisória na demissão; o restante do saldo só sai se cumprir outra regra de saque.",
+    "documentos": [
+      "Documento de identificação",
+      "CPF ou PIS/PASEP/NIS",
+      "Carteira de Trabalho (demissões desde 11/11/2017) ou termo de rescisão (TRCT) quando a empresa não comunicou o desligamento"
+    ],
+    "onde": "Aplicativo FGTS (saque 100% digital) ou agência da Caixa",
+    "fonte": "https://www.fgts.gov.br/Paginas/subpaginas/saque-dispensa.aspx",
+    "verificado_em": "2026-11-13"
+  },
+  {
+    "id": 14,
+    "categoria": "Trabalho e vagas",
+    "titulo": "Primeiro emprego: o que preciso para ser contratado",
+    "palavras_chave": [
+      "primeiro emprego",
+      "meu primeiro emprego",
+      "primeiro trabalho",
+      "o que preciso para ser contratado",
+      "documentos para ser contratado",
+      "documentos para trabalhar",
+      "documentos para o primeiro emprego",
+      "primeira carteira assinada"
+    ],
+    "resposta": "Para ser contratado com carteira assinada pela primeira vez, normalmente basta informar seu\nCPF à empresa: ele é suficiente para ela fazer o seu registro no eSocial. A carteira de\ntrabalho física não é mais necessária na grande maioria dos casos. A Carteira de Trabalho\nDigital já existe para todo mundo que tem CPF e é gratuita: você só precisa habilitá-la no\napp, com sua conta gov.br. Depois que a empresa envia o registro, o contrato aparece no app\nem até 48 horas. O número do PIS é gerado pela empresa no primeiro registro.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br (para usar o app)",
+      "Outros documentos pessoais que a empresa pedir"
+    ],
+    "onde": "Empresa que contratou (informe seu CPF) e aplicativo Carteira de Trabalho Digital",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/carteira-de-trabalho/perguntas-frequentes-carteira-de-trabalho-digital",
+    "verificado_em": "2026-11-13"
+  },
+  {
+    "id": 15,
+    "categoria": "Trabalho e vagas",
+    "titulo": "O que é o FGTS e quando dá para sacar",
+    "palavras_chave": [
+      "o que e fgts",
+      "o que e o fgts",
+      "para que serve o fgts",
+      "como funciona o fgts",
+      "fgts serve",
+      "deposito do fgts",
+      "quanto a empresa deposita de fgts",
+      "fundo de garantia do tempo de servico",
+      "como funciona o fundo de garantia",
+      "o que e fundo de garantia",
+      "para que serve o fundo de garantia",
+      "quando posso sacar o fgts",
+      "quando da para sacar o fgts",
+      "em que casos posso sacar o fgts"
+    ],
+    "resposta": "O FGTS (Fundo de Garantia do Tempo de Serviço) é um dinheiro que a empresa deposita todo\nmês em uma conta em seu nome, a conta do FGTS. O depósito é de 8% da remuneração (nos\ncontratos de aprendizagem, 2%). Serve como uma reserva para o trabalhador, que só pode\nsacar em algumas situações: demissão sem justa causa, aposentadoria, doença grave,\nfalecimento do titular e compra da casa própria.",
+    "documentos": [
+      "Para ver seu saldo: CPF e acesso ao app FGTS ou conta gov.br (veja a orientação de saldo do FGTS)"
+    ],
+    "onde": "Aplicativo FGTS",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/fgts/fundo-de-garantia-do-tempo-de-servico-fgts",
+    "verificado_em": "2026-11-13"
   }
 ]
